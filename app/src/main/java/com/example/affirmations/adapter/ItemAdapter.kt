@@ -15,7 +15,7 @@ class ItemAdapter(
     ) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
 
     class ItemViewHolder(private val view: View): RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.list_item)
+        val textView: TextView = view.findViewById(R.id.item_title)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
